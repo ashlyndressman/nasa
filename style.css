@@ -1,0 +1,162 @@
+/*
+Website Name: NASA Astronauts
+Description: To inspire interest in NASA and share women who have impacted space exploration.
+Author(s): The Sparkbox Team
+*/
+
+/* =Google Fonts
+---------------------------*/
+@import 'https://fonts.googleapis.com/css?family=Bungee|Ubuntu';
+
+/* =Structure
+---------------------------*/
+body {
+  font-family: Ubuntu, sans-serif;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/187/illusions.png);
+  background-position: top center;
+  background-color: black;
+  margin: 20px;
+  line-height: 26px;
+}
+#site {
+  background-color: whitesmoke;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/187/bright_squares.png);
+  background-position: top center;
+  background-attachment: fixed;
+  width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* =Elements
+---------------------------*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 26px;
+  color: deeppink;
+  font-weight: normal;
+  font-family: 'Bungee', sans-serif;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 26px;
+}
+h3 {
+  font-size: 18px;
+}
+blockquote {
+  font-style: italic;
+  margin-left: 40px;
+}
+p {
+  margin-bottom: 26px;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+a {
+  color: dodgerblue;
+}
+ul {
+  list-style: disc;
+  margin-left: 26px;
+  margin-bottom: 26px;
+}
+.caption {
+  font-size: 11px;
+  font-style: italic;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* =Header
+---------------------------*/
+#site-header {
+  overflow: auto;
+  padding: 20px 40px;
+  background: deepskyblue;
+  border-bottom: 4px solid dodgerblue;
+}
+#site-title {
+  font-size: 36px;
+  margin: 0;
+  color: azure;
+  float: left;
+}
+
+/* =Navigation
+---------------------------*/
+#site-navigation {
+  float: right;
+}
+#site-navigation a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+  padding: 0 20px;
+}
+#site-navigation a:hover {
+  color: black;
+}
+
+/* =Content
+---------------------------*/
+#content-wrapper {
+  padding: 40px;
+  overflow: auto;
+}
+#site-content {
+  width: 65%;
+  margin-right: 5%;
+  float: left;
+}
+
+/* =Sidebar
+---------------------------*/
+#sidebar {
+  width: 30%;
+  float: left;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+}
+.widget {
+  margin-bottom: 20px;
+}
+
+/* =Columns
+---------------------------*/
+#columns {
+  background-color: black;
+  color: azure;
+  overflow: hidden;
+  padding: 40px;
+}
+#columns h2 {
+  color: azure;
+}
+.column {
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+}
+.column.last {
+  margin-right: 0;
+}
+
+/* =Footer
+---------------------------*/
+#site-footer {
+  background-color: black;
+  color: azure;
+  overflow: auto;
+  padding: 20px 40px;
+  font-size: 14px;
+  line-height: 1.25;
+}
+
+/* Crafted with love at Sparkbox */
